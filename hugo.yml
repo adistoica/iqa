@@ -30,9 +30,12 @@ languages:
         - name: About
           url: about/
           weight: 10
-        - name: Archive
-          url: archives
-          weight: 5
+        - name: Blog
+          url: blog/
+          weight: 10
+        - name: Projects
+          url: projects/
+          weight: 10
         - name: Search
           url: search/
           weight: 10
@@ -54,11 +57,11 @@ params:
   defaultTheme: auto
   disableThemeToggle: false
   ShowShareButtons: false
-  ShowReadingTime: true
+  ShowReadingTime: false
   # disableSpecial1stPost: true
   displayFullLangName: false
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
@@ -89,11 +92,9 @@ params:
   homeInfoParams:
     Title: "Adrian Stoica | Senior Software QA Engineer"
     Content: >
-      - Hi there 👋 ! I'm Adrian, an ISTQB certified Senior Software QA Engineer specializing in quality assurance practices that span the whole life-cycle of the software development process, from the requirements phase to the delivery.
-
-      - I've been active professionally for about 15 years now. In my current role I enjoy implementing Test Automation frameworks, delivering QA best practices, and making sure that products are defect free 😎.
-
-      - I'm also the founder and sole developer of QAbase.io.
+       Hi there 👋 ! I'm Adrian, an ISTQB certified Senior Software QA Engineer specializing in quality assurance practices that span the whole life-cycle of the software development process, from the requirements phase to the delivery.
+       I've been active professionally for about 15 years now. In my current role I enjoy implementing Test Automation frameworks, delivering QA best practices, and making sure that products are defect free 😎.
+       I'm also the founder and sole developer of QAbase.io.
 
   assets:
     disableHLJS: true
