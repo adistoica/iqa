@@ -12,12 +12,12 @@ Adrian is an [ISTQB](https://istqb.org) certified QA Manager specializing in qua
 Adrian has strong knowledge in developing and implementing QA Practices, such as creating test plans and test strategies, designing test cases, functional and non-functional testing, Black / Grey / White box testing. Through his many leadership roles, Adrian has developed strong communication skills and a proactive, can-do mentality.
 
 ## My Skills
-- Backend: Java, Javascript, PHP
-- Testing: Selenium, Cypress, Appium, Postman
+- Backend: Java, PHP, Javascript, Typescript
+- Testing: Selenium, Cypress, Playwright, Appium, Postman, etc
 - Hosting: Amazon Web Services (AWS), Google Cloud Platform, Azure, Gitlab
-- CI/CD: Jenkins, Teamcity, Github
+- CI/CD: Jenkins, Teamcity, GitHub
 - Databases: MySQL, MongoDB, GraphQL, NoSQL
-- Productivity: Jetbrains, VSCode, Bash
+- Productivity: JetBrains, VSCode, Bash
 
 ## Education
 Adrian Stoica graduated from Romanian-American University with a BS in Computer Science.

@@ -10,7 +10,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["blog"]
+mainsections: [ "blog" ]
 googleAnalytics: G-LGJ56K41LD
 
 minify:
@@ -27,6 +27,9 @@ languages:
       series: series
     menu:
       main:
+        - name: Home
+          url: /
+          weight: 1
         - name: About
           url: about/
           weight: 10
@@ -51,14 +54,13 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "My personal solace place on web-earth."
-  author: Adrian
-  # author: ["Me", "You"] # multiple authors
+  # author: Adrian
 
   defaultTheme: auto
   disableThemeToggle: false
   ShowShareButtons: false
   ShowReadingTime: false
-  # disableSpecial1stPost: true
+  disableSpecial1stPost: true
   displayFullLangName: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
@@ -68,7 +70,7 @@ params:
   ShowPageNums: true
   ShowToc: false
   # comments: false
-  images: ["images/papermod-cover.png"]
+  images: [ "images/papermod-cover.png" ]
 
   cover:
     hidden: false
@@ -92,17 +94,17 @@ params:
   homeInfoParams:
     Title: "Adrian Stoica | Senior Software QA Engineer"
     Content: >
-       Hi there 👋 ! I'm Adrian, an ISTQB certified Senior Software QA Engineer specializing in quality assurance practices that span the whole life-cycle of the software development process, from the requirements phase to the delivery.
-       I've been active professionally for about 15 years now. In my current role I enjoy implementing Test Automation frameworks, delivering QA best practices, and making sure that products are defect free 😎.
-       I'm also the founder and sole developer of QAbase.io.
+      Hi there 👋 ! I'm Adrian, an [ISTQB](https://www.istqb.org/) certified <u>Senior Software QA Engineer</u> specializing in quality assurance practices that span the whole life-cycle of the software development process, from the requirements phase to the delivery. </br></br>
+      I've been active professionally for about 15 years now. In my current role I enjoy implementing Test Automation frameworks, delivering QA best practices, and making sure that products are defect free 😎. </br></br>
+      I'm also the founder and sole developer of <u>[QAbase.io](https://qabase.io)</u>.
 
   assets:
     disableHLJS: true
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
-  #     apple_touch_icon: "<link / abs url>"
-  #     safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicons/favicon.ico"
+    favicon16x16: "/favicons/favicon-16x16.png"
+    favicon32x32: "/favicons/favicon-32x32.png"
+    apple_touch_icon: "/favicons/apple-touch-icon.png"
+    safari_pinned_tab: "/favicons/safari-pinned-tab.svg"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
